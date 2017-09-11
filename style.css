@@ -1,5 +1,5 @@
 	body {
-		background: #232323;
+		background: #000;
 		margin: 0;
 	}
 	#Home-btn {
@@ -16,13 +16,9 @@
 	}
 
 	.spacing{
-		top: 10%;
+		margin: 10px;
 	}
 
-	/*.Portfolio {
-		color: white;
-		font-family: "Monospace" , sans-serif;
-	}*/
 	button {
 		position: absolute;
 		top: 2%;
@@ -33,46 +29,103 @@
 		outline: none;
 		background: none;
 		font-weight: 400;
-		//letter-spacing: 1px;
 		font-size: inherit;
 		transition: all 0.5s;
 	}
+
 	button:hover {
-		color: white;
+		color: #F7FF58;
 	}
-	h3 {
-		margin-left: 5%;
-		color: white;
+	
+	.dna-effect{
+		position: absolute;
+	}
 
-		font-family: "Monospace", sans-serif;
+	*{
+        -webkit-box-sizing: border-box;
+    	box-sizing: border-box;
 	}
-	.container {
+
+	canvas{
+   		 background-color: #000;
+	}
+
+	h1.typewriter {
+		position: absolute;
+		color: white;
+		font-size: 60px; 
+		font-family: Helvetica, Arial, sans-serif;
+		margin-top: 15%;
 		margin-left: 10%;
-		margin-right: 10%;
-		background-color: grey; 
-		margin-top: 0;
-		box-shadow: 0 0 2px #000;
+		white-space: nowrap;
+  		overflow: hidden;
+		animation: type 3s steps(60,end);
 	}
-	.typewriter {
-  overflow: hidden; 
-  border-right: .15em solid orange;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-    color: white;
-}
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 10% }
-  to { width: 90% }
-}
+	.divpwrapper {
+		position: absolute;
+		margin-top: 24%;
+		margin-left: 10%;
+	}
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+	p.typewriter {
+		color: white;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 20px;
+		white-space: nowrap;
+  		overflow: hidden;
+  		animation: type1 2s steps(100,end);
+	}
+
+	span.typewriter{
+		animation: blink 0.8s infinite;
+	}
+
+	p.typewriter.p2{
+		animation: type2 4.5s steps(100,end);
+	}
+
+	p.typewriter.p3{
+		animation: type3 7s  steps(100,end);		
+	}
+
+	p.typewriter.p4{
+		animation: type4 9s  steps(100,end);
+	}
+
+	@keyframes type{ 
+  		from { width: 0; }
+  		to {width: 100%}
+	} 
+
+	@keyframes type1{ 
+  		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+  	}
+
+	@keyframes type2{
+		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type3{
+		0% { width: 0; }
+  		65% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type4{
+		0% { width: 0; }
+  		74% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes blink{
+  		to{opacity: .0;}
+	}
+
+	::selection {
+		background: #000;
+	}
