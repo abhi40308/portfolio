@@ -1,0 +1,78 @@
+	body {
+		background: #232323;
+		margin: 0;
+	}
+	#Home-btn {
+		left: 72%;
+	}
+	#Projects-btn {
+		left: 78%;
+	}
+	#Contact-btn {
+		left: 84%;
+	}
+	#Feedback-btn{
+		left: 90%;
+	}
+
+	.spacing{
+		top: 10%;
+	}
+
+	/*.Portfolio {
+		color: white;
+		font-family: "Monospace" , sans-serif;
+	}*/
+	button {
+		position: absolute;
+		top: 2%;
+		width: 7%;
+		height: 5%;
+		color: silver;
+		border: none;
+		outline: none;
+		background: none;
+		font-weight: 400;
+		//letter-spacing: 1px;
+		font-size: inherit;
+		transition: all 0.5s;
+	}
+	button:hover {
+		color: white;
+	}
+	h3 {
+		margin-left: 5%;
+		color: white;
+
+		font-family: "Monospace", sans-serif;
+	}
+	.container {
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: grey; 
+		margin-top: 0;
+		box-shadow: 0 0 2px #000;
+	}
+	.typewriter {
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    color: white;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 10% }
+  to { width: 90% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
