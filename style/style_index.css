@@ -1,0 +1,304 @@
+	
+	.dna-effect{
+		margin: 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%; 
+	height: 100%;
+	}
+
+	{
+        -webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+	}
+
+	.text {
+		color: #BCF79D;
+	}
+
+	.head {
+		font-family: arial , sans-serif;
+		color: gold;
+	}
+
+	.emph {
+		color: #A1C1F5;
+	}
+
+h1.typewriter {
+		position: absolute;
+		color: white;
+		font-size: 40px; 
+		font-family: "Chalkduster", "comic sans MS", sans-serif;
+		margin-top: 15%;
+		margin-left: 0;
+		white-space: nowrap;
+  		overflow: hidden;
+		animation: type 3s steps(60,end);
+	}
+
+	.divpwrapper {
+		position: absolute;
+		margin-top: 30%;
+		margin-left: 0;
+	}
+
+	p.typewriter {
+		color: white;
+		font-family: "Chalkduster", "comic sans MS", sans-serif;
+		font-size: 13px;
+		white-space: nowrap;
+  		overflow: hidden;
+  		animation: type1 2s steps(100,end);
+	}
+
+	span.typewriter{
+		animation: blink 0.8s infinite;
+	}
+
+	p.typewriter.p2{
+		animation: type2 4.5s steps(100,end);
+	}
+
+	p.typewriter.p3{
+		animation: type3 7s  steps(100,end);		
+	}
+
+	p.typewriter.p4{
+		animation: type4 8.5s  steps(100,end);
+	}
+
+	@keyframes type{ 
+  		from { width: 0; }
+  		to {width: 100%}
+	} 
+
+	@keyframes type1{ 
+  		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+  	}
+
+	@keyframes type2{
+		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type3{
+		0% { width: 0; }
+  		65% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type4{
+		0% { width: 0; }
+  		73% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes blink{
+  		to{opacity: .0;}
+	}
+
+	.navigate{
+		margin: 0;
+	}
+
+	a.extra {
+		margin-bottom: 0;
+		margin-top: 50%;
+		margin-left: 90%;
+		color: #033590;
+	}
+
+	::selection {
+		background: #000;
+	}
+
+@media screen and (min-width: 500px){
+	h1.typewriter {
+		position: absolute;
+		color: white;
+		font-size: 50px; 
+		font-family: "Chalkduster", "comic sans MS", sans-serif;
+		margin-top: 15%;
+		margin-left: 0;
+		white-space: nowrap;
+  		overflow: hidden;
+		animation: type 3s steps(60,end);
+	}
+
+	.divpwrapper {
+		position: absolute;
+		margin-top: 25%;
+		margin-left: 0;
+	}
+
+	p.typewriter {
+		color: white;
+		font-family: "Chalkduster", "comic sans MS", sans-serif;
+		font-size: 15px;
+		white-space: nowrap;
+  		overflow: hidden;
+  		animation: type1 2s steps(100,end);
+	}
+
+	span.typewriter{
+		animation: blink 0.8s infinite;
+	}
+
+	p.typewriter.p2{
+		animation: type2 4.5s steps(100,end);
+	}
+
+	p.typewriter.p3{
+		animation: type3 7s  steps(100,end);		
+	}
+
+	p.typewriter.p4{
+		animation: type4 8.5s  steps(100,end);
+	}
+
+	@keyframes type{ 
+  		from { width: 0; }
+  		to {width: 100%}
+	} 
+
+	@keyframes type1{ 
+  		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+  	}
+
+	@keyframes type2{
+		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type3{
+		0% { width: 0; }
+  		65% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type4{
+		0% { width: 0; }
+  		73% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes blink{
+  		to{opacity: .0;}
+	}
+
+	.navigate{
+		margin: 0;
+	}
+
+	a.extra {
+		margin-bottom: 0;
+		margin-top: 50%;
+		margin-left: 90%;
+		color: #033590;
+	}
+
+	::selection {
+		background: #000;
+	}
+}
+
+@media screen and (min-width: 760px){
+	h1.typewriter {
+		position: absolute;
+		color: white;
+		font-size: 60px; 
+		font-family: "Chalkduster", "comic sans MS", sans-serif;
+		margin-top: 15%;
+		margin-left: 5%;
+		white-space: nowrap;
+  		overflow: hidden;
+		animation: type 3s steps(60,end);
+	}
+
+	.divpwrapper {
+		position: absolute;
+		margin-top: 24%;
+		margin-left: 5%;
+	}
+
+	p.typewriter {
+		color: white;
+		font-family: "Chalkduster", "Chalkduster", sans-serif;
+		font-size: 20px;
+		white-space: nowrap;
+  		overflow: hidden;
+  		animation: type1 2s steps(100,end);
+	}
+
+	span.typewriter{
+		animation: blink 0.8s infinite;
+	}
+
+	p.typewriter.p2{
+		animation: type2 4.5s steps(100,end);
+	}
+
+	p.typewriter.p3{
+		animation: type3 7s  steps(100,end);		
+	}
+
+	p.typewriter.p4{
+		animation: type4 8.5s  steps(100,end);
+	}
+
+	@keyframes type{ 
+  		from { width: 0; }
+  		to {width: 100%}
+	} 
+
+	@keyframes type1{ 
+  		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+  	}
+
+	@keyframes type2{
+		0% { width: 0; }
+  		45% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type3{
+		0% { width: 0; }
+  		65% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes type4{
+		0% { width: 0; }
+  		73% {width: 0;}
+  		100% {width: 100%;}
+	}
+
+	@keyframes blink{
+  		to{opacity: .0;}
+	}
+
+	.navigate{
+		margin: 0;
+	}
+
+	a.extra {
+		margin-bottom: 0;
+		margin-top: 50%;
+		margin-left: 90%;
+		color: #033590;
+	}
+
+	::selection {
+		background: #000;
+	}
+}

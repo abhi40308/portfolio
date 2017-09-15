@@ -1,0 +1,41 @@
+html, body {
+	background: #333;
+	margin: 0;
+	}
+
+	
+	a {
+		transition: all 0.5s;
+	}
+
+	a.contact-btn.act {
+		color: #F98349 !important;
+	}
+
+	a.navbar-brand.act {
+		color: #F3E058		!important;
+	}
+
+	a.skills-btn.act {
+		color: #71A0F7		!important;
+	}
+
+	a.project-btn.act {
+		color: #6FC43E		!important;
+	}
+
+	a.navbar-brand:hover {
+		color: #F3E058		!important;
+	}
+
+	a.contact-btn:hover {
+		color: #F98349		!important;
+	}
+
+	a.skills-btn:hover {
+		color: #71A0F7		!important;
+	}
+
+	a.project-btn:hover {
+		color: #6FC43E		!important;
+	}
