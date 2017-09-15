@@ -2,7 +2,7 @@
 ## Created as a learning project
 ### Features
 * Fully responsive.
-* Bootstrap
+* Created using Bootstrap.
 
 
 #### Credits: 
