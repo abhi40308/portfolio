@@ -9,8 +9,9 @@
 
 p.card-text {
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 }
+
 
 a.font {
 	font-size: 50px;
@@ -21,12 +22,12 @@ a.font:hover {
 	color: green;
 }
 
-.card-wrapper{
+/*.card-wrapper{
 	position: absolute;
 	margin-top: 15%;
 	margin-left: 8%;
 	margin-right: 8%;
-}
+}*/
 
 [class*="col-"] {
       margin-bottom: 15px;

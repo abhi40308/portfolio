@@ -1,12 +1,3 @@
-.sketch {
-	margin: 0;
-	top: 0;
-	left: 0;
-	position: fixed;
-	width: 100%; 
-	height: 100%;
-}
-
 .wrap
 {
   margin:50px auto 0 auto;
@@ -47,6 +38,9 @@
   z-index:0;
   transition: all 0.4s ease-out;
 }
+
+
+
 .tile .text
 {
 /*   z-index:99; */
@@ -59,7 +53,7 @@
 {
   font-weight:100;
   margin:20px 0 0 0;
-  font-family: "Chalkduster", "comic sans MS", sans-serif;
+  font-family: Lucida Sans Unicode;
   transform: translateX(200px);
 }
 
@@ -76,16 +70,16 @@
 
 .animate-text
 {
-  font-family: "comic sans MS",arial ,  sans-serif;
+  font-family: Lucida Sans Unicode;
   font-size: 20px;
   opacity:0;
   transition: all 0.6s ease-in-out;
 }
 
+
 .tile:hover
 {
 /*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 }
 
@@ -98,6 +92,33 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 {
   transform:translateX(0);
   opacity:1;
+}
+
+@media only screen and (max-width: 600px) {
+  .tile
+{
+  width:250px;
+  height:250px;
+  margin:10px;
+  background-color:silver;
+  display:inline-block;
+  background-size:cover;
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  overflow:hidden;
+  color:white;
+  font-family:'Roboto';
+  
+}
+
+.animate-text
+{
+  font-family: Lucida Sans Unicode;
+  font-size: 10px;
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
 }
 
 

@@ -12,6 +12,11 @@ p.bottom{
 		color: white;
 	}
 
+#form-send ul li{
+	font-size: 13px;
+	color: white;
+}
+
 label{
 	color: grey;
 }

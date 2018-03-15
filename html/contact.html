@@ -19,13 +19,10 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <body class="container-fluid">
 
-<div class="sketch-effect">
-    <script src="../js/sketch.js"></script>
-    <script src="../js/sketch.min-red.js"></script>
-</div>
+
 
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    
+    <div class="container">
     <div class="navbar-header">
         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
             <span class="sr-only">Toggle navigation</span>
@@ -43,16 +40,25 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
             <li class="active"><a class="contact-btn act" href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
         </ul>
     </div>
+</div>
 </nav>
 
-<div class="container-fluid">
+<div class="container">
     <div id="form-send" class="row">
                
     <div class="col-md-8 col-sm-12 col-md-offset-2">
     <div class="col-md-12">
-     <p> Any queries, suggestions or feedback, feel free to drop me a message. </p> 
+     <p> Write to me if : </p>
+        <ul>
+            <li>You have a project or an idea, that i can help you to implement</li>
+            <li>There is a wish to get me involved in some creative work</li>
+            <li>You are a recruiter</li>
+            <li>You just wanna say 'hi!'</li>
+        </ul> 
     </div>
-
+    <br>
+    <br>
+    <br>
     <form id="contact-form" method="post" action="contact.php" name="myform" role="form">
 
     <div class="messages"></div>
@@ -62,50 +68,52 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
         <div class="row">
             <div class="col-sm-6">
                 <div class="form-group">
-                    <label for="form_name">Firstname *</label>
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <label for="form_name">Name *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="What your mom calls you *" required="required" data-error="Name is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <!-- <div class="col-sm-6">
                 <div class="form-group">
                     <label for="form_lastname">Lastname *</label>
                     <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
                     <div class="help-block with-errors"></div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
+            </div> -->
+        <!-- </div>
+        <div class="row"> -->
             <div class="col-sm-6">
                 <div class="form-group">
                     <label for="form_email">Email *</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Where can i email you back *" required="required" data-error="Valid email is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <!-- <div class="col-sm-6">
                 <div class="form-group">
                     <label for="form_phone">Phone</label>
                     <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone no. +91 1234567890">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="form_message">Message *</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="What's on your mind *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
+            <br>
             <div class="col-md-12">
                 <input type="submit" class="btn btn-success btn-send" value="Send message">
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                <p class="text-muted"><strong>*</strong> These fields are required (all fields are required anyways)</p>
             </div>
         </div>
     </div>
@@ -113,7 +121,9 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
         </div> 
     </div>
 </div>
-
+    
+<br>
+<br>    
 <div class="row" id="footer">
 
          <a class="font" href="https://www.linkedin.com/in/abhijeet-singh-khangarot-7a6792126/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
@@ -128,6 +138,7 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <a class="font q" href="https://www.quora.com/profile/Abhijeet-Singh-676" target="_blank"><i class="fa fa-quora"></i></a>
 </div>
+
 
 <!-- Link to resume -->
 <!-- <div id="footer">
