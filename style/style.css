@@ -6,6 +6,7 @@ html, body {
 	
 	a {
 		transition: all 0.5s;
+		font-family: Lucida Sans Unicode;
 	}
 
 	a.contact-btn.act {
